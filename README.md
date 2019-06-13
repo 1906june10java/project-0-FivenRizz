@@ -23,6 +23,8 @@
 * Create at least 2 custom exceptions.
 * Input/Output through the console.
 
+personal note: try learning scanner. sysout scanner
+
 ## Reminder
 * Stick to the requirements, don't go overboard with extra features and if you do have extra features, make sure the main requirements are met.
 * It is *not* mandatory to follow the package structure provided in this project, however, I totally recommend you to try to follow it because this is the way that you develop following the *single responsibility principle*, and the way that we are going to code for the rest of the training.
