@@ -1,0 +1,383 @@
+2019-06-20 14:02:38 WARN  ConnectionUtil:20 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:18)
+2019-06-20 14:02:38 ERROR ConnectionUtil:37 - Could not connect.
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturedb.cqyaeos4pu09.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:29)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:34)
+2019-06-20 14:03:12 WARN  ConnectionUtil:20 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:18)
+2019-06-20 14:03:12 ERROR ConnectionUtil:37 - Could not connect.
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturedb.cqyaeos4pu09.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:29)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:34)
+2019-06-20 14:04:29 WARN  ConnectionUtil:20 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:18)
+2019-06-20 14:04:29 ERROR ConnectionUtil:37 - Could not connect.
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturedb.cqyaeos4pu09.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:29)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:34)
+2019-06-20 14:05:02 WARN  ConnectionUtil:20 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:18)
+2019-06-20 14:05:02 ERROR ConnectionUtil:37 - Could not connect.
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturedb.cqyaeos4pu09.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:29)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:34)
+2019-06-20 14:28:29 ERROR ConnectionUtil:29 - Could not connect.
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturedb.cqyaeos4pu09.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:21)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:26)
+2019-06-20 14:34:49 WARN  ConnectionUtil:20 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:18)
+2019-06-20 14:34:49 ERROR ConnectionUtil:36 - Could not connect.
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturedb.cqyaeos4pu09.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:28)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:33)
+2019-06-20 14:35:30 WARN  ConnectionUtil:20 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:18)
+2019-06-20 14:35:30 ERROR ConnectionUtil:36 - Could not connect.
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturedb.cqyaeos4pu09.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:28)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:33)
+2019-06-20 14:36:51 WARN  ConnectionUtil:20 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:18)
+2019-06-20 14:36:51 ERROR ConnectionUtil:36 - Could not connect.
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturedb.cqyaeos4pu09.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:28)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:33)
+2019-06-20 14:38:18 INFO  ConnectionUtil:34 - Connection successful
+2019-06-20 15:20:28 TRACE BankRepositoryJdbc:21 - Entering create method with parameter: Bank [id=5, username=AshokaShringla, password=p4ssw0rd, balance=1000]
+2019-06-20 15:20:30 ERROR BankRepositoryJdbc:36 - Could not create user.
+java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.BankRepositoryJdbc.create(BankRepositoryJdbc.java:32)
+	at com.revature.repository.BankRepositoryJdbc.main(BankRepositoryJdbc.java:80)
+2019-06-20 15:20:30 TRACE BankRepositoryJdbc:50 - Entering find hero by name method with parameter: user1
+2019-06-20 15:20:33 INFO  BankRepositoryJdbc:83 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-20 15:23:01 TRACE BankRepositoryJdbc:21 - Entering create method with parameter: Bank [id=5, username=AshokaShringla, password=p4ssw0rd, balance=1000]
+2019-06-20 15:23:02 ERROR BankRepositoryJdbc:36 - Could not create user.
+java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.BankRepositoryJdbc.create(BankRepositoryJdbc.java:32)
+	at com.revature.repository.BankRepositoryJdbc.main(BankRepositoryJdbc.java:80)
+2019-06-20 15:23:02 TRACE BankRepositoryJdbc:50 - Entering find hero by name method with parameter: user1
+2019-06-20 15:23:03 INFO  BankRepositoryJdbc:83 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-20 15:23:36 TRACE BankRepositoryJdbc:21 - Entering create method with parameter: Bank [id=5, username=AshokaShringla, password=p4ssw0rd, balance=1000]
+2019-06-20 15:23:37 ERROR BankRepositoryJdbc:36 - Could not create user.
+java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.BankRepositoryJdbc.create(BankRepositoryJdbc.java:32)
+	at com.revature.repository.BankRepositoryJdbc.main(BankRepositoryJdbc.java:80)
+2019-06-20 15:23:37 TRACE BankRepositoryJdbc:50 - Entering find hero by name method with parameter: AshokaShringla
+2019-06-20 15:23:37 INFO  BankRepositoryJdbc:83 - 
+2019-06-20 15:32:11 TRACE BankRepositoryJdbc:21 - Entering create method with parameter: Bank [id=5, username=AshokaShringla, password=p4ssw0rd, balance=1000]
+2019-06-20 15:32:12 ERROR BankRepositoryJdbc:36 - Could not create user.
+java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.BankRepositoryJdbc.create(BankRepositoryJdbc.java:32)
+	at com.revature.repository.BankRepositoryJdbc.main(BankRepositoryJdbc.java:79)
+2019-06-20 15:32:12 TRACE BankRepositoryJdbc:50 - Entering find hero by name method with parameter: user1
+2019-06-20 15:32:13 INFO  BankRepositoryJdbc:82 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-20 15:35:51 TRACE BankRepositoryJdbc:21 - Entering create method with parameter: Bank [id=5, username=AshokaShringla, password=p4ssw0rd, balance=1000]
+2019-06-20 15:35:54 TRACE BankRepositoryJdbc:50 - Entering find hero by name method with parameter: user1
+2019-06-20 15:35:54 INFO  BankRepositoryJdbc:82 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-20 16:06:45 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-20 16:06:46 INFO  BankRepositoryJdbc:113 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-20 16:06:46 TRACE BankRepositoryJdbc:81 - Entering find user by name method with parameter: user1
+2019-06-20 16:07:12 INFO  BankRepositoryJdbc:114 - 
+2019-06-20 16:07:59 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-20 16:08:01 INFO  BankRepositoryJdbc:113 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-20 16:08:01 TRACE BankRepositoryJdbc:81 - Enter your password: user1
+2019-06-20 16:08:19 INFO  BankRepositoryJdbc:114 - 
+2019-06-20 16:08:45 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-20 16:08:45 INFO  BankRepositoryJdbc:113 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-20 16:08:45 TRACE BankRepositoryJdbc:81 - Enter your password: user1
+2019-06-20 16:08:49 INFO  BankRepositoryJdbc:114 - 
+2019-06-20 16:09:20 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-20 16:09:21 INFO  BankRepositoryJdbc:113 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-20 16:09:21 TRACE BankRepositoryJdbc:81 - Enter your password: user1
+2019-06-20 16:09:24 INFO  BankRepositoryJdbc:114 - 
+2019-06-20 16:10:02 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-20 16:10:03 INFO  BankRepositoryJdbc:113 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-20 16:10:03 TRACE BankRepositoryJdbc:81 - Enter your password: user1
+2019-06-20 16:10:07 INFO  BankRepositoryJdbc:114 - 
+2019-06-20 16:10:31 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-20 16:10:32 INFO  BankRepositoryJdbc:116 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-20 16:10:32 TRACE BankRepositoryJdbc:81 - Enter your password: user1
+2019-06-20 16:10:36 INFO  BankRepositoryJdbc:117 - Login Failed
+2019-06-20 16:12:42 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-20 16:12:43 INFO  BankRepositoryJdbc:116 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-20 16:12:43 TRACE BankRepositoryJdbc:81 - Enter your password: user1
+2019-06-20 16:12:48 INFO  BankRepositoryJdbc:117 - Login Successful!
+2019-06-21 12:08:44 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-21 12:08:45 INFO  BankRepositoryJdbc:143 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-21 12:08:45 TRACE BankRepositoryJdbc:81 - Enter your username: 
+2019-06-21 12:08:49 ERROR BankRepositoryJdbc:102 - Could not find the user
+java.sql.SQLException: ResultSet.next was not called
+	at oracle.jdbc.driver.GeneratedScrollableResultSet.getString(GeneratedScrollableResultSet.java:874)
+	at oracle.jdbc.driver.GeneratedResultSet.getString(GeneratedResultSet.java:1460)
+	at com.revature.repository.BankRepositoryJdbc.loginUsername(BankRepositoryJdbc.java:94)
+	at com.revature.repository.BankRepositoryJdbc.main(BankRepositoryJdbc.java:144)
+2019-06-21 12:08:49 INFO  BankRepositoryJdbc:144 - 
+2019-06-21 12:08:49 TRACE BankRepositoryJdbc:109 - Enter your password: user1
+2019-06-21 12:09:26 INFO  BankRepositoryJdbc:145 - Login Successful!
+2019-06-21 12:21:27 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-21 12:21:27 INFO  BankRepositoryJdbc:149 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-21 12:21:27 TRACE BankRepositoryJdbc:111 - Please enter your username:
+2019-06-21 12:21:30 TRACE BankRepositoryJdbc:115 - Enter your password: user1
+2019-06-21 12:21:34 INFO  BankRepositoryJdbc:151 - Login Successful!
+2019-06-21 12:21:38 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-21 12:21:38 INFO  BankRepositoryJdbc:149 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-21 12:21:38 TRACE BankRepositoryJdbc:111 - Please enter your username:
+2019-06-21 12:21:41 TRACE BankRepositoryJdbc:115 - Enter your password: user10
+2019-06-21 12:21:41 INFO  BankRepositoryJdbc:151 - 
+2019-06-21 12:22:30 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-21 12:22:30 INFO  BankRepositoryJdbc:150 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-21 12:22:31 TRACE BankRepositoryJdbc:113 - Please enter your username:
+2019-06-21 12:22:34 TRACE BankRepositoryJdbc:117 - Enter your password: qq
+2019-06-21 12:22:34 INFO  BankRepositoryJdbc:152 - 
+2019-06-21 12:25:59 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-21 12:26:00 INFO  BankRepositoryJdbc:153 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-21 12:26:00 TRACE BankRepositoryJdbc:113 - Please enter your username:
+2019-06-21 12:26:04 TRACE BankRepositoryJdbc:117 - Enter your password: user2
+2019-06-21 12:26:06 INFO  BankRepositoryJdbc:155 - Login Successful!
+2019-06-21 12:26:09 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-21 12:26:10 INFO  BankRepositoryJdbc:153 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-21 12:26:10 TRACE BankRepositoryJdbc:113 - Please enter your username:
+2019-06-21 12:26:12 TRACE BankRepositoryJdbc:117 - Enter your password: qq
+2019-06-21 12:26:12 ERROR BankRepositoryJdbc:138 - Could not find the user
+2019-06-21 12:26:12 INFO  BankRepositoryJdbc:155 - 
+2019-06-21 12:27:07 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-21 12:27:08 INFO  BankRepositoryJdbc:153 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-21 12:27:08 TRACE BankRepositoryJdbc:113 - Please enter your username:
+2019-06-21 12:27:12 ERROR BankRepositoryJdbc:138 - Could not find the user
+2019-06-21 12:27:12 INFO  BankRepositoryJdbc:155 - 
+2019-06-21 12:27:15 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-21 12:27:16 INFO  BankRepositoryJdbc:153 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-21 12:27:16 TRACE BankRepositoryJdbc:113 - Please enter your username:
+2019-06-21 12:27:22 TRACE BankRepositoryJdbc:127 - Enter your password: AshokaShringla
+2019-06-21 12:27:26 INFO  BankRepositoryJdbc:155 - Login Failed
+2019-06-21 12:27:34 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-21 12:27:34 INFO  BankRepositoryJdbc:153 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-21 12:27:35 TRACE BankRepositoryJdbc:113 - Please enter your username:
+2019-06-21 12:27:39 ERROR BankRepositoryJdbc:138 - Could not find the user
+2019-06-21 12:27:39 INFO  BankRepositoryJdbc:155 - 
+2019-06-21 12:27:41 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-21 12:27:42 INFO  BankRepositoryJdbc:153 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-21 12:27:42 TRACE BankRepositoryJdbc:113 - Please enter your username:
+2019-06-21 12:27:46 TRACE BankRepositoryJdbc:127 - Enter your password: AshokaShringla
+2019-06-21 12:27:49 INFO  BankRepositoryJdbc:155 - Login Successful!
+2019-06-21 12:32:37 TRACE BankRepositoryJdbc:84 - Please enter your username:
+2019-06-21 12:32:46 TRACE BankRepositoryJdbc:84 - Please enter your username:
+2019-06-21 12:32:50 TRACE BankRepositoryJdbc:98 - Enter your password: user1
+2019-06-21 12:33:22 TRACE BankRepositoryJdbc:84 - Please enter your username:
+2019-06-21 12:33:24 ERROR BankRepositoryJdbc:109 - Could not find the user
+2019-06-21 12:33:28 TRACE BankRepositoryJdbc:84 - Please enter your username:
+2019-06-21 12:33:30 TRACE BankRepositoryJdbc:98 - Enter your password: user2
+2019-06-24 11:34:08 ERROR BankRepositoryJdbc:108 - Could not find the user
+2019-06-24 11:46:26 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 11:48:49 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 11:49:17 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 11:54:07 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 11:55:01 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 12:01:02 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 12:01:11 TRACE BankRepositoryJdbc:156 - Depositing 1000
+2019-06-24 12:01:11 TRACE BankRepositoryJdbc:165 - Deposit successful
+2019-06-24 12:02:11 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 12:02:15 TRACE BankRepositoryJdbc:156 - Depositing 1000
+2019-06-24 12:02:15 TRACE BankRepositoryJdbc:165 - Deposit successful
+2019-06-24 12:37:29 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 12:37:38 TRACE BankRepositoryJdbc:156 - Depositing 1000
+2019-06-24 12:37:38 TRACE BankRepositoryJdbc:165 - Deposit successful
+2019-06-24 12:38:49 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 12:38:56 TRACE BankRepositoryJdbc:156 - Depositing 1000
+2019-06-24 12:38:56 TRACE BankRepositoryJdbc:165 - Deposit successful
+2019-06-24 12:45:56 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user2
+2019-06-24 12:46:03 TRACE BankRepositoryJdbc:156 - Depositing 100
+2019-06-24 12:46:03 TRACE BankRepositoryJdbc:165 - Deposit successful
+2019-06-24 12:49:00 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user2
+2019-06-24 12:49:06 TRACE BankRepositoryJdbc:156 - Depositing 100
+2019-06-24 12:49:06 TRACE BankRepositoryJdbc:165 - Deposit successful
+2019-06-24 12:49:37 TRACE BankRepositoryJdbc:156 - Depositing 100
+2019-06-24 12:49:38 TRACE BankRepositoryJdbc:165 - Deposit successful
+2019-06-24 12:49:38 INFO  BankRepositoryJdbc:212 - true
+2019-06-24 12:51:31 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user2
+2019-06-24 12:51:38 TRACE BankRepositoryJdbc:156 - Depositing 100
+2019-06-24 12:51:38 TRACE BankRepositoryJdbc:165 - Deposit successful
+2019-06-24 12:51:38 ERROR BankRepositoryJdbc:173 - Could not deposit
+2019-06-24 13:04:16 INFO  ConnectionUtil:34 - Connection successful
+2019-06-24 13:04:56 TRACE BankRepositoryJdbc:156 - Depositing 100
+2019-06-24 13:04:57 INFO  BankRepositoryJdbc:209 - true
+2019-06-24 13:05:28 TRACE BankRepositoryJdbc:156 - Depositing 105
+2019-06-24 13:05:30 INFO  BankRepositoryJdbc:209 - true
+2019-06-24 13:11:04 TRACE BankRepositoryJdbc:156 - Depositing 100
+2019-06-24 13:11:05 INFO  BankRepositoryJdbc:209 - true
+2019-06-24 13:11:22 TRACE BankRepositoryJdbc:156 - Depositing 100
+2019-06-24 13:11:22 INFO  BankRepositoryJdbc:209 - true
+2019-06-24 13:13:16 TRACE BankRepositoryJdbc:156 - Depositing 100
+2019-06-24 13:13:17 INFO  BankRepositoryJdbc:210 - true
+2019-06-24 13:13:38 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user3
+2019-06-24 13:13:48 TRACE BankRepositoryJdbc:156 - Depositing 250
+2019-06-24 13:19:02 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user3
+2019-06-24 13:19:12 TRACE BankRepositoryJdbc:156 - Depositing 350
+2019-06-24 13:25:32 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user3
+2019-06-24 13:26:31 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user3
+2019-06-24 13:29:27 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user3
+2019-06-24 13:30:54 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user3
+2019-06-24 13:31:34 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user3
+2019-06-24 13:31:40 TRACE BankRepositoryJdbc:179 - Withdrawing 500
+2019-06-24 13:31:47 TRACE BankRepositoryJdbc:156 - Depositing 100
+2019-06-24 13:32:52 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 13:34:53 TRACE BankRepositoryJdbc:156 - Depositing 1000
+2019-06-24 13:36:49 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user3
+2019-06-24 13:36:55 TRACE BankRepositoryJdbc:179 - Withdrawing 200
+2019-06-24 13:37:03 TRACE BankRepositoryJdbc:156 - Depositing 100
+2019-06-24 13:37:21 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 13:40:39 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 13:40:40 INFO  BankRepositoryJdbc:203 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-24 13:41:38 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: AshokaShringla
+2019-06-24 13:41:39 INFO  BankRepositoryJdbc:203 - Bank [id=5, username=AshokaShringla, password=p4ssw0rd, balance=1000]
+2019-06-24 13:41:47 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 13:41:48 INFO  BankRepositoryJdbc:203 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-24 13:42:29 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 13:42:30 INFO  BankRepositoryJdbc:203 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-24 13:46:58 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 13:46:59 INFO  BankRepositoryJdbc:203 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-24 13:48:37 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 13:48:38 INFO  BankRepositoryJdbc:203 - Bank [id=1, username=user1, password=password1, balance=0]
+2019-06-24 13:50:17 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 13:50:18 INFO  BankRepositoryJdbc:203 - Bank [id=1, username=user1, password=password1, balance=3000]
+2019-06-24 13:50:50 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user3
+2019-06-24 13:51:38 TRACE BankRepositoryJdbc:146 - Depositing 0
+2019-06-24 13:52:41 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 13:52:57 TRACE BankRepositoryJdbc:169 - Withdrawing 2000
+2019-06-24 14:05:09 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 14:05:13 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 14:05:24 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 14:05:25 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 14:10:29 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: 
+2019-06-24 14:10:45 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: 
+2019-06-24 14:14:22 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: 
+2019-06-24 14:17:24 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 14:17:29 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 14:31:37 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 14:31:43 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-24 15:05:32 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user4
+2019-06-24 15:05:37 TRACE BankRepositoryJdbc:146 - Depositing 50
+2019-06-24 15:05:39 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user4
