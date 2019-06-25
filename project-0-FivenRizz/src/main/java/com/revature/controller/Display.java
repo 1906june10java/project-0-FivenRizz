@@ -23,6 +23,7 @@ public class Display {
 			System.out.println("Welcome!");
 			System.out.println("Press 1 to login");
 			System.out.println("Press 2 to exit");
+			System.out.println("Press 3 to register");
 			String option = user.nextLine();
 		
 			if (option.equals("1")) {
@@ -53,20 +54,56 @@ public class Display {
 					System.out.println("");
 				}
 			}
-			if (option.equals("2")) {
+			else if (option.equals("2")) {
 				System.out.println("");
 				System.out.println("Thank you for your business");
 				login = true;
 				run = false;
 				run2 = false;
 			}
-			if(Integer.parseInt(option)>2) {
+			else if (option.equals("3")) {
+				boolean first = false;
+				boolean second = false;
+				
+				while (!second){
+					
+					System.out.println("Please provide a username");
+					String temp_username = user.nextLine();
+					second = true;
+					
+					while(!first) {
+						System.out.println("Please provide a password");
+						String temp_password = user.nextLine();
+						first = true;
+						
+						Long id = bank.count();
+						Bank temp = new Bank(id, temp_username, temp_password, 0L);
+						
+						if(bank.loginUser(temp_username)) {
+							System.out.println("Username Taken");
+							second = false;
+							first = false;
+						}
+						else {
+							bank.create(temp);
+							System.out.println(temp_username + " created. Please login.");
+						}
+						
+					}
+					
+				}
+
+				
+				
+			}
+			if(Integer.parseInt(option)>3) {
 				System.out.println("");
 				System.out.println("Invalid Entry");
 				System.out.println("");
 			}
 		
 		}
+		
 		Bank curr = bank.findByName(username);
 		
 		while (run2) {
@@ -92,6 +129,9 @@ public class Display {
 				System.out.println("");
 				run2 = false;
 				login = false;
+			}
+			else if(Integer.parseInt(option1)>2){
+				System.out.println("Invald entry");
 			}
 			
 		}

@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -95,12 +96,12 @@ private static final Logger LOGGER = Logger.getLogger(BankRepositoryJdbc.class);
 				return true;
 			}
 			else {
-				LOGGER.error("Could not find the user");
+				LOGGER.error("");
 			}
 		}
 		
 		catch (SQLException e) {
-			LOGGER.error("Could not find the user", e);
+			LOGGER.error("", e);
 		}
 		return false;
 	}
@@ -187,10 +188,35 @@ private static final Logger LOGGER = Logger.getLogger(BankRepositoryJdbc.class);
 }
 	
 
+//	@Override
+//	public Long checkBalance(String name) {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
+	
 	@Override
-	public Long checkBalance(String name) {
-		// TODO Auto-generated method stub
-		return null;
+	public Long count() {
+		
+		try(Connection connection = ConnectionUtil.getConnection()){
+			
+			Statement statement = connection.createStatement(
+				    ResultSet.TYPE_SCROLL_INSENSITIVE, 
+				    ResultSet.CONCUR_READ_ONLY);
+			ResultSet result = statement.executeQuery("SELECT COUNT(*) AS B_ID FROM BANK");
+			
+			result.last();
+			int count = result.getInt("B_ID");
+			result.beforeFirst();
+			count += 1;
+			
+			return Long.valueOf(count);
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			LOGGER.info("doesnt work");
+			return null;
+		}
 	}
 	
 //	public static void main(String[] args) {
@@ -202,5 +228,10 @@ private static final Logger LOGGER = Logger.getLogger(BankRepositoryJdbc.class);
 //		LOGGER.info(repository.findByName("user1"));
 //		LOGGER.info(repository.deposit("user2", Long.parseLong("100")));
 //	}
+	
+	public static void main(String[] args) {
+		BankRepository repository = new BankRepositoryJdbc();
+		LOGGER.info(repository.count());
+	}
 
 }

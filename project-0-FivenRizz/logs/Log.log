@@ -425,3 +425,46 @@ java.sql.SQLException: ResultSet.next was not called
 2019-06-25 15:04:25 TRACE BankRepositoryJdbc:145 - Depositing 100
 2019-06-25 15:04:31 TRACE BankRepositoryJdbc:168 - Withdrawing 200
 2019-06-25 15:04:35 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-25 15:39:10 INFO  BankRepositoryJdbc:230 - 
+2019-06-25 15:54:23 INFO  BankRepositoryJdbc:231 - 
+2019-06-25 15:55:06 INFO  BankRepositoryJdbc:232 - 
+2019-06-25 15:57:52 INFO  BankRepositoryJdbc:235 - 
+2019-06-25 15:58:00 INFO  BankRepositoryJdbc:235 - 
+2019-06-25 16:01:05 INFO  BankRepositoryJdbc:233 - jhi
+2019-06-25 16:01:06 INFO  BankRepositoryJdbc:234 - 
+2019-06-25 16:01:33 INFO  BankRepositoryJdbc:217 - doesnt work
+2019-06-25 16:01:33 INFO  BankRepositoryJdbc:234 - 
+2019-06-25 16:04:45 INFO  BankRepositoryJdbc:217 - doesnt work
+2019-06-25 16:04:45 INFO  BankRepositoryJdbc:234 - 
+2019-06-25 16:07:36 INFO  BankRepositoryJdbc:214 - doesnt work
+2019-06-25 16:07:36 INFO  BankRepositoryJdbc:231 - 
+2019-06-25 16:07:58 INFO  BankRepositoryJdbc:214 - doesnt work
+2019-06-25 16:07:58 INFO  BankRepositoryJdbc:231 - 
+2019-06-25 16:09:33 INFO  BankRepositoryJdbc:214 - doesnt work
+2019-06-25 16:09:33 INFO  BankRepositoryJdbc:231 - 
+2019-06-25 16:14:26 INFO  BankRepositoryJdbc:233 - 5
+2019-06-25 16:15:36 INFO  BankRepositoryJdbc:234 - 6
+2019-06-25 16:16:10 ERROR BankRepositoryJdbc:99 - Could not find the user
+2019-06-25 16:16:10 TRACE BankRepositoryJdbc:24 - Entering create method with parameter: Bank [id=6, username=user5, password=password5, balance=0]
+2019-06-25 16:17:15 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user5
+2019-06-25 16:17:21 TRACE BankRepositoryJdbc:146 - Depositing 100
+2019-06-25 16:17:24 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user5
+2019-06-25 16:17:43 ERROR BankRepositoryJdbc:99 - 
+2019-06-25 16:17:43 TRACE BankRepositoryJdbc:24 - Entering create method with parameter: Bank [id=7, username=user6, password=password6, balance=0]
+2019-06-25 16:17:59 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: 
+2019-06-25 16:18:58 ERROR BankRepositoryJdbc:99 - 
+2019-06-25 16:18:58 TRACE BankRepositoryJdbc:24 - Entering create method with parameter: Bank [id=8, username=user7, password=password7, balance=0]
+2019-06-25 16:19:09 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: 
+2019-06-25 16:20:17 ERROR BankRepositoryJdbc:99 - 
+2019-06-25 16:20:17 TRACE BankRepositoryJdbc:24 - Entering create method with parameter: Bank [id=9, username=rabeet, password=pw, balance=0]
+2019-06-25 16:20:39 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: rabeet
+2019-06-25 16:20:56 TRACE BankRepositoryJdbc:146 - Depositing 100
+2019-06-25 16:21:16 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: rabeet
+2019-06-25 16:22:31 ERROR BankRepositoryJdbc:99 - 
+2019-06-25 16:22:31 TRACE BankRepositoryJdbc:24 - Entering create method with parameter: Bank [id=10, username=anh, password=tran, balance=0]
+2019-06-25 16:22:40 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: anh
+2019-06-25 16:22:59 TRACE BankRepositoryJdbc:146 - Depositing 1000
+2019-06-25 16:23:21 TRACE BankRepositoryJdbc:169 - Withdrawing 100
+2019-06-25 16:23:40 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: anh
+2019-06-25 16:26:49 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
+2019-06-25 16:26:56 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1

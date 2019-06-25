@@ -32,9 +32,11 @@ public interface BankRepository {
 	
 	public boolean loginPassword(String username, String password);
 	
-	public Long checkBalance(String name);
+//	public Long checkBalance(String name);
 	
 	public boolean deposit(String name, Long deposit);
 	
 	public boolean withdraw(String name, Long withdraw);
+	
+	public Long count();
 }
