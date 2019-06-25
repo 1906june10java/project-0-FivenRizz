@@ -381,3 +381,47 @@ java.sql.SQLException: ResultSet.next was not called
 2019-06-24 15:05:32 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user4
 2019-06-24 15:05:37 TRACE BankRepositoryJdbc:146 - Depositing 50
 2019-06-24 15:05:39 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user4
+2019-06-24 18:24:37 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: AshokaShringla
+2019-06-24 18:26:11 TRACE BankRepositoryJdbc:145 - Depositing 500
+2019-06-24 18:26:24 TRACE BankRepositoryJdbc:168 - Withdrawing 200
+2019-06-24 18:26:28 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: AshokaShringla
+2019-06-25 09:48:06 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: AshokaShringla
+2019-06-25 09:48:15 TRACE BankRepositoryJdbc:145 - Depositing 100
+2019-06-25 09:48:26 TRACE BankRepositoryJdbc:168 - Withdrawing 400
+2019-06-25 09:48:34 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: AshokaShringla
+2019-06-25 09:49:39 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user3
+2019-06-25 09:52:39 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user2
+2019-06-25 09:52:55 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user2
+2019-06-25 09:54:53 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-25 09:55:02 TRACE BankRepositoryJdbc:145 - Depositing 100
+2019-06-25 09:55:06 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-25 10:39:26 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user4
+2019-06-25 10:41:26 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user4
+2019-06-25 10:53:26 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user4
+2019-06-25 10:53:33 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user4
+2019-06-25 13:00:28 ERROR BankRepositoryJdbc:98 - Could not find the user
+2019-06-25 13:01:26 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: 
+2019-06-25 13:01:58 ERROR BankRepositoryJdbc:98 - Could not find the user
+2019-06-25 13:02:01 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: uuu
+2019-06-25 13:05:47 ERROR BankRepositoryJdbc:98 - Could not find the user
+2019-06-25 13:05:49 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: uuu
+2019-06-25 13:06:11 ERROR BankRepositoryJdbc:98 - Could not find the user
+2019-06-25 13:06:13 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: iii
+2019-06-25 13:07:01 ERROR BankRepositoryJdbc:98 - Could not find the user
+2019-06-25 13:07:04 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: uuu
+2019-06-25 14:44:09 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: AshokaShringla
+2019-06-25 14:44:16 TRACE BankRepositoryJdbc:145 - Depositing 500
+2019-06-25 14:44:27 TRACE BankRepositoryJdbc:168 - Withdrawing 200
+2019-06-25 14:44:32 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: AshokaShringla
+2019-06-25 14:44:56 ERROR BankRepositoryJdbc:98 - Could not find the user
+2019-06-25 14:45:17 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-25 14:45:24 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-25 14:59:01 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-25 14:59:16 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-25 15:00:42 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-25 15:00:53 TRACE BankRepositoryJdbc:145 - Depositing 100
+2019-06-25 15:00:56 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-25 15:04:18 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1
+2019-06-25 15:04:25 TRACE BankRepositoryJdbc:145 - Depositing 100
+2019-06-25 15:04:31 TRACE BankRepositoryJdbc:168 - Withdrawing 200
+2019-06-25 15:04:35 TRACE BankRepositoryJdbc:52 - Entering find user by name method with parameter: user1

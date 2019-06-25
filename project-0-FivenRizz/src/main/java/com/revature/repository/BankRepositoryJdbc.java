@@ -119,7 +119,6 @@ private static final Logger LOGGER = Logger.getLogger(BankRepositoryJdbc.class);
 			
 			ResultSet result = statement.executeQuery();
 			
-			
 			if(result.next()){
 				if(password.equals(result.getString("B_PASSWORD"))) {
 					return true;

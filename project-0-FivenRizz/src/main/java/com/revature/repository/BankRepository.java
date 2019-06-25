@@ -1,5 +1,7 @@
 package com.revature.repository;
 
+import java.sql.SQLException;
+
 import com.revature.model.Bank;
 
 public interface BankRepository {
@@ -35,5 +37,4 @@ public interface BankRepository {
 	public boolean deposit(String name, Long deposit);
 	
 	public boolean withdraw(String name, Long withdraw);
-	
 }
