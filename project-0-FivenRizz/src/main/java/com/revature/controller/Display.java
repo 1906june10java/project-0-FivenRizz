@@ -2,6 +2,7 @@ package com.revature.controller;
 
 import java.util.Scanner;
 
+import com.revature.exception.InvalidAmountException;
 import com.revature.exception.NegativeBalanceException;
 import com.revature.exception.UserNotFoundException;
 import com.revature.model.Bank;
@@ -18,6 +19,7 @@ public class Display {
 		boolean run2 = true;
 		String username = "";
 		boolean login = false;
+		boolean correct = true;
 		while (run) {
 		while (!login){
 			System.out.println("Welcome!");
@@ -27,6 +29,7 @@ public class Display {
 			String option = user.nextLine();
 		
 			if (option.equals("1")) {
+				run2 = true;
 				System.out.println("Please input username: ");
 				username = user.nextLine();
 			try {
@@ -141,6 +144,22 @@ public class Display {
 			System.out.println("");
 			System.out.println("Enter amount to deposit");
 			String s_dep = user.nextLine();
+			try {
+				try {
+					Double.parseDouble(s_dep);
+				}
+				catch(NumberFormatException e) {
+					throw new InvalidAmountException("Please enter a proper amount");
+				}
+				if(Integer.parseInt(s_dep)<0) {
+					throw new InvalidAmountException("Please enter a proper amount");
+				}
+			}
+			catch(InvalidAmountException e){
+				System.out.println("Please enter a proper amount");
+				correct = false;
+			}
+			if (correct) {
 			Long deposit = Long.parseLong(s_dep);
 			curr.setBalance(curr.getBalance() + deposit);
 			if(bank.deposit(curr.getUsername(), deposit)) {
@@ -163,11 +182,28 @@ public class Display {
 					login = false;
 				}
 		}
+		}
 		
 		if(option.equals("3")) {
 			System.out.println("");
 			System.out.println("Enter amount to withdraw");
 			String s_with = user.nextLine();
+			try {
+				try {
+					Double.parseDouble(s_with);
+				}
+				catch(NumberFormatException e) {
+					throw new InvalidAmountException("Please enter a proper amount");
+				}
+				if(Integer.parseInt(s_with)<0) {
+					throw new InvalidAmountException("Please enter a proper amount");
+				}
+			}
+			catch(InvalidAmountException e){
+				System.out.println("Please enter a proper amount");
+				correct = false;
+			}
+			if (correct) {
 			Long withdraw = Long.parseLong(s_with);
 			Long curr_balance = curr.getBalance();
 			curr.setBalance(curr.getBalance() - withdraw);
@@ -207,7 +243,7 @@ public class Display {
 					login = false;
 				}
 		}
-		
+		}
 		
 		if(option.equals("4")) {
 			System.out.println("");

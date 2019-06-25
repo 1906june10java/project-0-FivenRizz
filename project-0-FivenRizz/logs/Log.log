@@ -468,3 +468,77 @@ java.sql.SQLException: ResultSet.next was not called
 2019-06-25 16:23:40 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: anh
 2019-06-25 16:26:49 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
 2019-06-25 16:26:56 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
+2019-06-25 16:31:06 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: AshokaShringla
+2019-06-25 16:31:14 TRACE BankRepositoryJdbc:146 - Depositing -100
+2019-06-25 16:32:25 TRACE BankRepositoryJdbc:169 - Withdrawing -100
+2019-06-25 16:33:53 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: AshokaShringla
+2019-06-25 16:37:15 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
+2019-06-25 16:47:23 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
+2019-06-25 16:50:37 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
+2019-06-25 16:51:07 TRACE BankRepositoryJdbc:169 - Withdrawing -100
+2019-06-25 16:52:43 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
+2019-06-25 16:52:48 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
+2019-06-25 16:54:37 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
+2019-06-25 16:54:56 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
+2019-06-25 16:55:26 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
+2019-06-25 16:55:38 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
+2019-06-25 16:55:49 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:01 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:01 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:01 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:02 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:02 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:02 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:02 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:03 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:03 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:03 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:03 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:03 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:04 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:04 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:04 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:04 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:04 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:05 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:05 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:05 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:05 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:05 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:06 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:06 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:06 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:06 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:06 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:07 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:07 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:07 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:07 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:07 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:08 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:08 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:09 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:26 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:56:35 TRACE BankRepositoryJdbc:146 - Depositing 100
+2019-06-25 16:56:41 TRACE BankRepositoryJdbc:169 - Withdrawing 50
+2019-06-25 16:57:42 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:42 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:42 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:43 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:43 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:43 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:43 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:44 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:44 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:44 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:44 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:44 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:45 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:45 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user2
+2019-06-25 16:57:58 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
+2019-06-25 16:58:04 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user1
+2019-06-25 16:58:18 ERROR BankRepositoryJdbc:99 - 
+2019-06-25 16:58:18 TRACE BankRepositoryJdbc:24 - Entering create method with parameter: Bank [id=11, username=user10, password=password10, balance=0]
+2019-06-25 16:58:25 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user10
+2019-06-25 16:58:31 TRACE BankRepositoryJdbc:146 - Depositing 190
+2019-06-25 16:58:34 TRACE BankRepositoryJdbc:53 - Entering find user by name method with parameter: user10
