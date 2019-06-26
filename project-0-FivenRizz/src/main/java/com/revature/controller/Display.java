@@ -69,7 +69,6 @@ public class Display {
 				boolean second = false;
 				
 				while (!second){
-					
 					System.out.println("Please provide a username");
 					String temp_username = user.nextLine();
 					second = true;
@@ -84,8 +83,8 @@ public class Display {
 						
 						if(bank.loginUser(temp_username)) {
 							System.out.println("Username Taken");
-							second = false;
-							first = false;
+							second = true;
+							first = true;
 						}
 						else {
 							bank.create(temp);
@@ -140,7 +139,7 @@ public class Display {
 		}
 		
 		if(option.equals("2")) {
-			
+			correct = true;
 			System.out.println("");
 			System.out.println("Enter amount to deposit");
 			String s_dep = user.nextLine();
@@ -187,6 +186,7 @@ public class Display {
 		if(option.equals("3")) {
 			System.out.println("");
 			System.out.println("Enter amount to withdraw");
+			correct = true;
 			String s_with = user.nextLine();
 			try {
 				try {

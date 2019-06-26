@@ -6,7 +6,6 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-import com.revature.controller.Display;
 import com.revature.repository.BankRepositoryJdbc;
 
 public class BankTest {
